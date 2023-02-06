@@ -1,7 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@700&display=swap');
+
+:root {
+    --cor0: #D4AB3B;
+    --cor1: #EBD14D;
+    --cor2: #D4CA3B;
+    
+    --fonte-destaque: 'Josefin Slab', serif;
+}
 * {
     margin: 0;
     padding: 0;
 }
-body {
-    text-align: center;
+.destaque {
+    font-family: var(--fonte-destaque);    
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+    text-shadow: 3px 3px 5px rgb(255, 255, 255);
+    border-radius: 5px;
 }

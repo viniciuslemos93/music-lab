@@ -22,7 +22,7 @@
 <p>Para consumir a API foi usada a função nativa do Javascript, o Fetch.</p>
 <p>Esse projeto <a href="https://developers.deezer.com/api">utiliza esta API</a>. Suas informações e instruções estão no seu README.</p>
 
-### Deploy: 
+### Deploy: https://viniciuslemos93.github.io/music-lab/
 
 &#xa0;
 

@@ -11,10 +11,8 @@ function buscarArtista () {
             console.log(data.name)
                 //selecionar o elemento
             data.map((item) => {
-                //criar o elemento
-                
+                //criar o elemento                
             })
         })
-
     
 }

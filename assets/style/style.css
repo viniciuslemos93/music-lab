@@ -16,4 +16,5 @@
     background-image: linear-gradient(to right, var(--cor1), transparent);
     text-shadow: 3px 3px 5px rgb(255, 255, 255);
     border-radius: 5px;
+    padding: 10px;
 }

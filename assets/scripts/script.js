@@ -5,16 +5,20 @@ function buscarArtista () {
     //const url = 'https://api.deezer.com/artist/27'
     fetch(url)
         .then(function(response) {
-            return response.json();            
-        })
+            return response.json() })
         .then(function(data){
             console.log(data)
-
-            console.log(data.name)
-                //selecionar o elemento
-            data.map((item) => {
-                //criar o elemento                
-            })
-        })
     
+            createArtistInterface(data)
+        })    
+}
+
+function createArtistInterface (data) {
+    const body = document.querySelector('body')
+
+    for (let chave in data) {
+        // A variável "chave" recebe o valor de cada uma das chaves do objeto em questão
+        console.log('A chave atual é: ', chave)
+    
+        
 }

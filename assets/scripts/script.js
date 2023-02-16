@@ -10,7 +10,7 @@ function buscarArtista () {
             console.log(data)
     
             createArtistInterface(data)
-        })    
+        })
 }
 
 function createArtistInterface (data) {
@@ -28,4 +28,3 @@ function createArtistInterface (data) {
     }
 
 }
-fetchMusicData('27')
